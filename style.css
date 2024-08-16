@@ -1,0 +1,16 @@
+.fade-out-nav {
+  transform: translateY(-10rem);
+  opacity: 0;
+  scale: 0.5;
+  transition: all .4s;
+}
+.stick-to-nav {
+  position: fixed;
+  top: 10px;
+  z-index: 9999;
+}
+.stick-to-nav .div {
+  width: 30%;
+  height: 8vh;
+  transition: all .2s;
+}
